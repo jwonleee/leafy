@@ -55,7 +55,7 @@ CREATE TABLE plant_logs (
 -- $2a$10$Vqx3VUuB8gy9NvtKHQARWOOYB2wG4wV2WXy1sdQHIoY8TivSHZ3sC = password456
 -- $2a$10$ke3IM6noeWfQtX6POjZHl.49gSolYbqfrSTIn8sOQubdwjP2IT94q = password789
 INSERT INTO users (name, email, password, gender, birth_date) VALUES
-('John', 'john123@qmail.com', '$2a$10$vYR4pPQqR/oZcUDZfXrahecEejQHY0kLkDB5s.FctPRMcEMh1PYhG', 'M', '1988-05-01'),
+('John', 'ezy@qmail.com', '$2a$10$vYR4pPQqR/oZcUDZfXrahecEejQHY0kLkDB5s.FctPRMcEMh1PYhG', 'M', '1988-05-01'),
 ('Jane', 'jane456@qmail.com', '$2a$10$vYR4pPQqR/oZcUDZfXrahecEejQHY0kLkDB5s.FctPRMcEMh1PYhG', 'F', '1995-08-15'),
 ('Peter', 'peter789@qmail.com', '$2a$10$vYR4pPQqR/oZcUDZfXrahecEejQHY0kLkDB5s.FctPRMcEMh1PYhG', 'M', '1981-12-25'),
 ('Susan', 'susan321@qmail.com', '$2a$10$vYR4pPQqR/oZcUDZfXrahecEejQHY0kLkDB5s.FctPRMcEMh1PYhG', 'F', '1990-06-02'),
@@ -78,7 +78,7 @@ INSERT INTO users (name, email, password, gender, birth_date) VALUES
 
 -- Plants 테이블에 데이터 삽입
 INSERT INTO plants (plant_name, plant_type, plant_desc, image_url, temperature_low, temperature_high, humidity_low, humidity_high, watering_interval)
-VALUES 
+VALUES
 ('아이비', '덩굴식물', '아이비는 빠르게 성장하는 인기 있는 덩굴식물로, 공기 정화 능력이 뛰어납니다. 벽이나 거치대에 올려두면 빠르게 뻗어나가 아름다운 모습을 연출합니다.', 'https://leafyapplicationfiles.blob.core.windows.net/plantimages/아이비.jpg', 12, 28, 40, 70, 7),
 ('스투키', '선인장', '스투키는 독특한 모양의 선인장으로, 견고하고 건조한 환경에도 잘 적응할 수 있습니다. 물을 적게 주어도 건강하게 자라며 관리가 쉽습니다.', 'https://leafyapplicationfiles.blob.core.windows.net/plantimages/스투키.jpg', 10, 30, 10, 50, 21),
 ('로즈마리', '허브', '로즈마리는 향긋한 향기를 가진 허브로, 요리에 활용되기도 합니다. 건조한 환경에도 잘 적응하며, 햇빛을 좋아하는 식물입니다.', 'https://leafyapplicationfiles.blob.core.windows.net/plantimages/로즈마리.jpg', 10, 30, 30, 50, 14),
